@@ -1,0 +1,35 @@
+/* Custom bootstrap variables must be set or imported *before* bootstrap. */
+@import "bootstrap";
+
+
+nav{
+	
+}
+
+.sidenav{
+	margin-left: 40px;
+}
+
+.nav-item{
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.devborder{
+	border: 1px solid black;
+}
+
+
+.content{
+	font-size: 1.2em;
+	line-height: 2;
+	border: 1px red;
+	margin-left: 40px;
+	
+}
+
+p{
+	padding: 10px;
+}

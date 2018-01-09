@@ -1,2 +1,22 @@
-<h1>StaticPages#about</h1>
-<p>Find me in app/views/static_pages/about.html.erb</p>
+<% provide(:title, "About Us")%>
+<% provide(:subtitle, "A bit about who we are") %>
+
+<%=render 'layouts/jumbotron' %>
+<div class="row devborder">
+
+ 	<div class="sidenav col-sm-2 devborder">
+	  <%= render 'layouts/header' %>
+	</div>
+  <div class="container">
+	  <div class="devborder col-lg-10 content">
+		<p>Welcome to Mountainside Pugs, we are glad to have you as a visitor to our site. Mountainside Pugs is a small family owned and operated business. We are located in the beautiful Shenandoah Mountains of Virginia. We have 3 acres of space for our babies, an acre of which is fenced and cross-fenced to provide five separate yards of various sizes for them. We do not have kennels or runs, the dogs live with us. We have human space (with dogs of course), dog space, puppy space, and lots of yard space. They have separate entrances to their yards to keep the males and females separated when necessary. Of course, we also have some mixed breed dogs that were rescues and they are also part of the "family". </p>
+
+		<p>Our Pugs are raised as family oriented animals. Pugs are naturally companion animals and crave the company of humans, they also need to be climate controlled. We provide the best possible care we can for our Pugs. The puppies are housed indoors in their own room, separate from other dogs and stresses. They do not have contact with dogs other than their mother, nor are they permitted outdoors before their second series of vaccinations.</p>
+
+		<p>It is our policy to provide the best possible care to our adult dogs and in turn our puppies. When you put a deposit on your puppy you are kept informed of the progress of your puppy via e-mail and photographs on a bi-weekly basis.  As the new owner you are expected to show interest in your new puppy between the time of deposit and the time you pick it up. We expect and welcome questions and responses to our e-mails. We will return a deposit for owners that are not concerned with their puppy. This may sound harsh, however it is our policy.  We would rather find out beforehand that the new owner was not really ready for the puppy, then to have them call later to see if we could find it another home.</p>
+
+		<p> Our goal is to place happy, healthy puppies in homes that are desiring a Pug, and are aware of their specific needs and wants. We want to ensure both parties are as happy as possible!  </p>
+	  </div>
+	</div>
+
+</div>

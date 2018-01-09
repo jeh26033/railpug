@@ -1,2 +1,8 @@
-<h1>StaticPages#ourdogs</h1>
-<p>Find me in app/views/static_pages/ourdogs.html.erb</p>
+<% provide(:title, "Our Dogs")%>
+<% provide(:subtitle, "A group of pugs is often referred to as a 'Grumble'. Here's our Grumble") %>
+
+<%=render 'layouts/jumbotron' %>
+ 
+<div class="row devborder">
+	<%= render 'layouts/header' %>
+</div>

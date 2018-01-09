@@ -1,2 +1,28 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, "Home")%>
+
+
+<div class="jumbotron">
+  <h1 class="display-3">Mountainside Pugs</h1>
+  <p class="lead">Champion-lined and Companion Pet Pug breeder</p>
+  <hr class="my-4">
+  <p>We breed world-class, AKC registered Pug puppies in a warm home environment, with all the love and care these special dogs require. Bring home your own wrinkly ball of fun today! </p>
+</div>
+
+
+<div class="row ">
+
+  <div class="sidenav col-sm-2 ">
+    <%= render 'layouts/header' %>
+  </div>
+  <div class="container">
+    <div class=" col-lg-10 content">
+    	<p> Hi ! Welcome to Mountainside Pugs. Thank you for stopping by our website and looking at our pugs. We take deposits in advance of litters to hold the puppy of your choice from a litter (the puppy is actually chosen at about 5 weeks of age). We also take names for our waiting lists. We strive to match you to the pug puppy you've always wanted. You can view our current rotation <a href="ourdogs">here</a> to view our stock. Whatever your decision, you have the confidence of a full suite of genetic testing with constant health checks to help ensure you receive a healthy, wonderful pug. </p>
+
+      <p>If you have and questions about the breed, please visit our <a href="puginfo"> breed information page</a>
+      , which is filled with information about pugs, including general health, attitudes, breed traits, grooming and training, and more! If you can't find what you're looking for there, feel feel to shoot us an email! </p>
+
+      <p>Pugs are absolutely wonderful, personality-filled dogs and are great companions. Mountainside pugs: Where happiness is always included. </p>
+    </div>
+  </div>
+
+</div>

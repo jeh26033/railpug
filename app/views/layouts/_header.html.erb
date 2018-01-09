@@ -1,0 +1,33 @@
+ <header class="navbar navbar-inverse">
+
+  <div class="container">
+	<nav id="nav" class="navbar  navbar-light bg-light flex-md-column">
+
+	 
+<hr class="my-4">
+	    <ul class="navbar-nav flex-column mr-auto">
+	      <li class="nav-item">
+	       <a class="nav-link" <%= link_to "Home", root_path %></a> 
+	      </li>
+
+	      <li class="nav-item">
+	        <a class="nav-link" <%=link_to 'About Us', about_path %></a>
+	      </li>
+
+	      <li class="nav-item">
+	        <a class="nav-link" <%=link_to 'Our Dogs', ourdogs_path %> </a>
+	      </li>
+
+	      <li class="nav-item">
+	        <a class="nav-link" <%=link_to 'Pug Information', puginfo_path %></a>
+	      </li>
+
+	      <li class="nav-item">
+	        <a class="nav-link" <%=link_to 'Contact Us', contact_path %></a>
+	      </li>
+	    </ul>
+	
+	</nav>
+  </div>
+
+</header>
