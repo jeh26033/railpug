@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 .jumbotron-billboard .img {
-	opacity: .20;
+	opacity: .50;
     margin-bottom: 0px;
     color: #fff;
     background: #000 url("/assets/floorpug.jpg") top center no-repeat;
@@ -63,7 +63,7 @@
 
 .nav-item{
 	/*Sage green*/
-	background-color: #D1E2C4;
+	background-color: #91a582;
 	margin-top: 10px;
 	padding: 20px;
 	font-size: 1.2em;
@@ -78,7 +78,7 @@
 	font-size: 1.2em;
 	line-height: 2;
 	border: 1px red;
-	background-color: #D1E2C4;
+	background-color: #C1C2AD;
 	
 }
 
@@ -93,7 +93,7 @@ p{
 
 footer{
 	/*Sage green*/
-	background-color: #D1E2C4;
+	background-color: #91a582;
 	margin-top: 200px;
 
 }
