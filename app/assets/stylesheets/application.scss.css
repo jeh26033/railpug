@@ -1,19 +1,71 @@
 /* Custom bootstrap variables must be set or imported *before* bootstrap. */
 @import "bootstrap";
 
+.jumbotron-billboard .img {
+	opacity: .20;
+    margin-bottom: 0px;
+    color: #fff;
+    background: #000 url("/assets/floorpug.jpg") top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
 
-nav{
-	
+.jumbotron h2 {
+	margin-right: 250px;
+	margin-top:0;
+	padding-bottom: 150px;
+}
+
+.jumbotron h3{
+	font-family: 'Montserrat', sans-serif;
+	margin-right: 0px;
+	margin-top:0;
+	padding-bottom: 0px;
+} 
+
+.jumbotron {
+	position:relative;
+	padding-top:150px;
+	padding-bottom:150px;
+
+}
+
+.jumbotron .container-fluid {
+	position:relative;
+	z-index:2;
+}
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+
+  .sidenav{
+	margin-left:0;
+  }
+}
+
+#c-fluid{
+	/*sage*/
+
+	background-color:#E9E6E2;
 }
 
 .sidenav{
-	margin-left: 40px;
+	
 }
 
 .nav-item{
+	/*Sage green*/
+	background-color: #D1E2C4;
 	margin-top: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 20px;
 	font-size: 1.2em;
 }
 
@@ -21,15 +73,28 @@ nav{
 	border: 1px solid black;
 }
 
-
 .content{
+	margin: 20px;
 	font-size: 1.2em;
 	line-height: 2;
 	border: 1px red;
-	margin-left: 40px;
+	background-color: #D1E2C4;
 	
 }
 
 p{
 	padding: 10px;
 }
+
+.card{
+	margin:1%;
+}
+
+
+footer{
+	/*Sage green*/
+	background-color: #D1E2C4;
+	margin-top: 200px;
+
+}
+

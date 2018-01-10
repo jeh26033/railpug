@@ -1,13 +1,21 @@
 <% provide(:title, "Contact Us")%>
 <% provide(:subtitle, "Send us a 'pug-mail' and we'll get back to you!") %>
+<% provide(:subsubtitle, "Champion-lined and Companion Pet Pug breeder") %>
 
 <%=render 'layouts/jumbotron' %>
-<div class="row devborder">
-	<%= render 'layouts/header' %>
-	<div class="devborder col-sm content">
-
-		<img class="img-fluid" src="/fjord.jpg">
+<div class="row">
+	<div class="sidenav col-sm-2 ">
+	  <%= render 'layouts/header' %>
 	</div>
 
-
+	<div class="col-lg container">
+	    <div class="content">
+	    	<ul>
+		    	<li>Phone number:</li>
+		    	<li>Address</li>
+		    	<li>email address</li>
+		    	<li>Social Media</li>
+		    </ul>
+	    </div>
+ 	</div>
 </div>

@@ -1,8 +1,44 @@
 <% provide(:title, "Our Dogs")%>
 <% provide(:subtitle, "A group of pugs is often referred to as a 'Grumble'. Here's our Grumble") %>
+<% provide(:subsubtitle, "Champion-lined and Companion Pet Pug breeder") %>
 
 <%=render 'layouts/jumbotron' %>
  
-<div class="row devborder">
-	<%= render 'layouts/header' %>
+<div class="row">
+	<div class="sidenav  col-sm-2 ">
+	  <%= render 'layouts/header' %>
+	</div>
+	<div class="col-lg container ">
+	    <div class="row content">
+
+	    	<div class="col-md card" style="width: 18rem;">
+			  <img class="card-img-top" src="/assets/jumppug.jpg" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Pug</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			
+			  </div>
+			</div>
+
+			<div class="col-md card" style="width: 18rem;">
+			  <img class="card-img-top" src="/assets/moodypug.jpg" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Pug</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			
+			  </div>
+			</div>
+
+			<div class="col-md card" style="width: 18rem;">
+			  <img class="card-img-top" src="/assets/openfield.jpg" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Pug</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			   
+			  </div>
+			</div>
+
+
+	    </div>
+ 	</div>
 </div>
